@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title> BMI CALCULATOR </title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">/*my icon*/
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">/*icons for navigational bar*/
+<style>
+ 
+ .navi {list-style-type: none ;padding: 0;background-color:white; position: fixed; top: 0; width:100%;}
+ .navi-right a {font-size:20px;font-weight: bold; color: black; padding: 10px;text-decoration: none;text-align: left;display: block;overflow:auto;}
+ .navi-right a:hover {font-weight: bold; background-color: grey; color: red;}
+ .navi-right a{float:right;}
+ .navi a.this-one-is-active { background-color: black;  color: white;}
+.navi-left{margin-left:20px;font:30px Arial; color:orange; font-family: Century Gothic;font-weight:bold}
+
+
+body{background-color:#FFDB73;font-family: Arial;}
+
+.header {margin-top:20px;text-align:center; padding-top:10px; padding-bottom:10px; font-family: sans-serif; font-size:55px; font-weight:bold; color: #fff;background-color:orange;}
+
+
+.go-back a { color: orange; font-family: sans-serif; font-size: 30px; transition: linear; font-weight: bold;padding-bottom: 30px;text-align: center;}
+.go-back a:hover { color: black;}
+
+
+
+
+.flexbox{ display: flex; flex-wrap: wrap; justify-content:space-between; align-items: center;}
+
+
+
+ .inner {  
+    flex: 1 0 20% /*Every element will use 20% of available space*/;
+    background-color: #fff0e6;
+    padding: 10px;   cursor: pointer; ; margin: 30px; width:100%; height:100%;}
+
+ .inner:hover { background-color: #e6e6e6; margin-bottom: 30px;}
+ 
+ .img-news img{ width: 100%; height:100% ;margin-bottom: 10px;}
+
+
+
+.banner {overflow: hidden; background: white ;}
+.banner-move { animation: name-of-animation linear/*same speed*/ 20s infinite; }
+.banner-move{ display: flex ;}
+.banner-move:hover { color:orange}
+.hitem { margin:10px; flex-shrink: 0 /*lay all of the items out in a long horizontal row*/ ; width: 100%; ; box-sizing: border-box;  padding: 30 px;  text-align: center;}
+ 
+ 
+@keyframes name-of-animation{
+  0% /* the same as from*/ { transform: translate3d(100%, 0, 0); }
+  100% /* the same as to*/ { transform: translate3d(-300%, 0, 0); }
+}
+@media only screen and (max-width: 600px){ 
+.banner-move {   animation: name-of-animation linear  30s infinite; .}
+.banner-move { display: flex ;}
+
+</style>
+</head>
+
+<body > 
+<nav> 
+<div class='navi'>
+<div class='navi-right'>
+   <a href="#about"> <i class="fa fa-user-o" aria-hidden="true"></i> About</a> 
+   <a href="htmlwebsite-knowledge.html"><i class="fa fa-book" aria-hidden="true"></i> Knowledge</a> 
+   <a href="htmlwebsite-discover.html"><i class="fa fa-search" aria-hidden="true"></i> Discover</a> 
+   <a class='this-one-is-active' href="#home"><i class="fa fa-fw fa-home"></i> Home</a> 
+  </div>
+<div class='navi-left'><a>hi life !</a>
+</div>
+</div>
+
+ 
+<img src='https://static.vecteezy.com/system/resources/previews/001/226/748/original/colorful-sunset-sky-free-photo.jpg' alt='tree'  width=100% height="300" >
+
+</nav>
+ <div class="banner"><div class="banner-move">
+  <div class="hitem">No time for your health today, <br />
+No health for your time tomorrow.      </div>
+  <div class="hitem">g g g g g g g g g g gdbvdfb fbfdgb fbdbfdbd dbdbdb .</div>
+  <div class="hitem">1234 4332 4566 4443 44 3 34 3444 434 34454 4444 .</div>
+</div></div>
+
+
+<header id='1' class='header'> BLOGS</header>
+
+<div class='flexbox'>
+ <div class="inner ">
+
+           <div class="img-news"> <a target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg" ></a> </div>
+     <p>Insulin Resistance and Diabetes <p>
+</div>
+     
+
+
+ <div class="inner ">
+
+           <div class="img-news"> <a  target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg" ></a> </div>
+         	 <p> Insulin Resistance and Diabetes <p>
+</div>
+     
+<div class="inner ">
+
+           <div class="img-news"> <a target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg"></a> </div>
+         	<p> Insulin Resistance and Diabetes <p>
+</div>
+<div class="inner ">
+
+           <div class="img-news"> <a target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg"></a> </div>
+         
+           <p> Insulin Resistance and Diabetes <p>
+</div>
+
+
+ <div class="inner ">
+
+           <div class="img-news"> <a target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg"></a> </div>
+         
+           <p> Insulin Resistance and Diabetes <p>
+</div>
+</div>
+</div>
+
+<div class="go-back">
+      <a href="#1">VIEW ALL BLOGS</a> </div>
+
+
+
+
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+ 
+<header id='2' class='header'> VIDEOS</header>
+
+
+<div class="go-back">
+      <a href="#2">VIEW ALL VIDEOS</a> </div>
+
+<div class='flexbox'>
+<div class="inner ">
+
+           <div class="img-news"> <a target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg" ></a> </div>
+         
+           <p> Insulin Resistance and Diabetes <p>
+</div>
+     
+
+
+ <div class="inner ">
+
+           <div class="img-news"> <a  target='_blank' href="https://www.cdc.gov/diabetes/basics/insulin-resistance.html"><img alt="Insulin Resistance and Diabetes" src="https://images.everydayhealth.com/images/diabetes-awareness-month-1440x810.jpg" ></a> </div>
+         
+           <p> Insulin Resistance and Diabetes <p>
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
